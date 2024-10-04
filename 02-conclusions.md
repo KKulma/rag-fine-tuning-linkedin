@@ -1,0 +1,8 @@
+We've learned that LLMs on their own are magical language machines that appear to be knowledge bases, but are in fact just very good at stumbling on right-ish answers due to their extensive training sets. This means building enterprise LLM-based AI apps is risky because the answers the LLM provides may not be accurate, especially if the user is asking for specialized domain data and even private data. 
+
+To improve the accuracy of LLM responses, we can provide relevant context by adding it directly into the request. But to do this at scale, we need to be able to retrieve the relevant context on the fly, and that gives us retrieval augmented generation, or RAG. In some cases, like an online store, a simple product database API may be sufficient to build a RAG system. 
+In others, it may be necessary to build an embedding space vector database, or even leverage knowledge graphs to get the best results. 
+
+In either case, combining RAG with a fine-tuned model can significantly improve the responses from the LLM and ensure they conform with company language policies and user patterns. And this can be further enhanced by using retrieval augmented fine-tuning, or RAFT, to build a fine-tuned model that recognizes and conforms to the patterns and language in the grounded domain data. 
+
+And finally, all of this points to one crucial insight. For anything beyond casual use, a standard chat app built on a foundation LLM model is not sufficient. For the enterprise, some combination of RAG and fine-tuning built into a larger traditional app is required to produce consistent, reliable, and safe responses, for the company and for its clients. And all of this is possible thanks to the concepts presented in this course. 

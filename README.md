@@ -1,0 +1,1 @@
+Course [link](https://www.linkedin.com/learning/rag-and-fine-tuning-explained/rag-fine-tuning-and-the-enterprise)
